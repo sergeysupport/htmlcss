@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>База знаний</title>
+	<link href="../../fonts/opensans web/opensans.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../fonts/roboto/roboto.css">
+	<link rel="stylesheet" href="../../fonts/sourcecodepro/sourcecodepro.css">
+	<link rel="stylesheet" href="../../fonts/icofont/icofont.css">
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.css">
+</head>
+<body>
+<div class="note">
+<h2>Не выдает сдачу NV200</h2>
+<h3>Не выдает сдачу после оплаты:</h3>
+<ol>
+<li>Проверить подключение и опросить купюрник из служебного меню</li>
+<li>Проверить наличие сдачи на ленте</li>
+<li>Проверить индикаторный цвет принимающей части (красный/синий) - если моргает красно-синим, устранить причину</li>
+<li>Сделать тестовую выдачу через системное меню</li>
+<li>Снять лог на предмет ошибки купюроприемника</li>
+<li>При ошибке SmartPayOut-Detected error with payout device:</li>
+</ol>
+<em>
+При помощи програмы ITL включить/выключить/перезагрузить устройство<br>
+Рекомендовать скинуть всю сдачу в кассету (делает клиент сам) и загрузить заново<br>
+Рекомендовать по инструкции выполнить чистку устройства
+</em>
+<ol start="7">
+<li>При повторении случаев невыдачи, предложить отправить устройство на сервисную чистку (платно)</li>
+<li>В случае замятия (по логу либо по цвету принимающей части), по инструкции достать купюру.</li>
+<li>В случае, если при оплате сдача не выдается, а из служебного меню выдает, проверить подключение - должно быть подключено в USB 2.0</li>
+<li>При отсутствии подключения в слжебном меню, выкл/вкл порт в панеле управления (диспетчер устройств), через ITL многократно сделать Reset, пока не появится устройство</li>
+</div>
+</body>
+
+<!-- h2 заголовок -->
+<!-- ol нумерованный список, ul просто список, li каждый пункт списка -->
+<!-- em можно оборачивать пути/файлы/команды -->
+<!-- еще теги strong - жирный i - курсив -->

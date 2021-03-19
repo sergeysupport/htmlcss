@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>База знаний</title>
+	<link href="../../fonts/opensans web/opensans.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../fonts/roboto/roboto.css">
+	<link rel="stylesheet" href="../../fonts/sourcecodepro/sourcecodepro.css">
+	<link rel="stylesheet" href="../../fonts/icofont/icofont.css">
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.css">
+</head>
+<body>
+<div class="note">
+<h2>Печать признаков и тэгов</h2>
+<h3>Необходимо включить печать на чеке всех признаков и налогов:</h3>
+
+<ol>
+
+<li>Закрыть ПО</li>
+
+<li>Запустить "ТестДрайвера"</li>
+
+<li>Открыть таблицы</li>
+
+<li>Таблица 1:</li>
+
+</ol>
+
+ <em>Поле 25 = 0 - Не использовать форматирования в чеке (если на чеке не печатается цена каждого товара)</em>
+
+<ol start="5">
+
+<li>Таблица 17:</li>
+</ol>
+<em>
+ Поле 12 = 63 - печать всех реквизитов<br>
+ Поле 16 = 2 - печатается только буква налога, ставка не печатается<br>
+ Поле 17 = 2 - формат ФД 1.05<br>
+ Поле 25 = 1 - печать автотэгов<br>
+ Поле 39 = 1 - печать "Безналичные" вместо "Электронные"
+</em>
+
+<ol start="6">
+<li>Перезагрузить кассу</li>
+
+<li>Закрыть "ТестДрайвера"</li>
+
+<li>Запустить ПО</li>
+</ol>
+</div>
+</body>
+
+<!-- h2 заголовок -->
+<!-- ol нумерованный список, ul просто список, li каждый пункт списка -->
+<!-- em можно оборачивать пути/файлы/команды -->
+<!-- еще теги strong - жирный i - курсив -->
